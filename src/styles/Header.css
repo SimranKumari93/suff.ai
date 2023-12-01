@@ -1,12 +1,12 @@
 *{
     margin:0;
     padding:0;
-   
+    background-color: #f7eff0;
 }
 .head{
     width:100%;
     height:80px;
-    background-color: rgb(102, 83, 204);
+    background-color: rgb(239, 215, 235);
     text-align: center;
     align-items: center;
     display: flex;
@@ -23,39 +23,38 @@
    -webkit-user-select: none;
    -ms-user-select: none;
 }
-
+.shops{
+    font-weight: 900;
+    /* color: rgb(87, 85, 83); */
+    text-decoration-color: #393232;
+}
 .my-name {
     text-align: center;
     padding: 15px 0px 0px 0px;
 }
-
 .Sec {
-
     display: flex;
     width:80%;
     height: auto;
-    
     margin: auto;
-    
 }
-
-
 .subSec {
-    width:50%;
+    width:40%;
     height:fit-content;
-   /*border: 2px solid red;*/
+   /* border: 2px solid red; */
     margin:10px auto;
 }
 .op {
     width: 70%;
-    height: 80px;
-    background: linear-gradient(90deg, #3f49a3 7.59%, rgba(49, 126, 198, 0.762) 85.67%);;
+    height: 65px;
+    /* background: linear-gradient(90deg, #3f49a3 7.59%, rgba(49, 126, 198, 0.762) 85.67%);; */
     margin:40px auto;
-    border-radius: 25px;
-   
+    border-radius: 15px;
+    border-color: rgb(52, 43, 43);
     font-weight: 700;
+    border: 2px solid rgb(153, 150, 150);
     font-size: large;
-    color: antiquewhite;
+    color: rgb(87, 85, 83);
     
 }
 .title{
