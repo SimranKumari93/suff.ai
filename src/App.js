@@ -4,8 +4,8 @@ import { BrowserRouter , Route, Routes } from 'react-router-dom';
 import Header from './components/Header.js';
 import SuffList from './components/SuffList.js';
 import './App.css';
-import Login from './components/Login'
-import Footer from './components/Footer.js';
+// import Login from './components/Login'
+// import Footer from './components/Footer.js';
 
 const App = () => {
   return (
