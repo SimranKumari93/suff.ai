@@ -2,111 +2,123 @@
 body {
   font-family: 'Arial', sans-serif;
 }
-
 .app {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
 }
-
 header {
   background-color: #333;
   color: white;
   text-align: center;
   padding: 10px;
 }
-
 .suff-list {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
 }
-
 .suff-card {
   border: 1px solid #ccc;
   padding: 10px;
   max-width: 300px;
 }
-
 .suff-card img {
   width: 100%;
   height: auto;
 }
-
 .suff-detail img {
   width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
-
 .review-list {
   margin-top: 20px;
 }
-
 .review-item {
   border: 1px solid #ccc;
   padding: 10px;
   margin-bottom: 10px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .App {
-  text-align: center;
+/*css for footer js */
+.container{
+         display: grid;
+         grid-gap: 1rem;
+         grid-template-columns: 20rem 20rem 20rem 20rem;
+         padding: 150px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h3{
+  margin-top: 1rem;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input[type="email"]{
+  max-width: 26rem;
+  max-height: .001rem;
+  margin-bottom: .6rem;
+  border-style: solid;
+  border-width: .1rem;
+  border-radius: 8px;
+  text-transform: lowercase;
+  color: #333;
+  font-size: 10px;
+  cursor: pointer;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+input[type="submit"]{
+  max-width: 8rem;
+  max-height: .05rem;
+  /* margin-top: 1rem; */
+  padding: 1.4rem;
+  border-style: solid;
+  border-width: .1rem;
+  border-radius: 6px;
+  text-transform: lowercase;
+  color: #333;
+  font-size: 10px;
+  cursor: pointer;
+}
+input, textarea{
+  max-width: 35rem;
+  padding: 1.6rem 2.4rem;
+  border: 1px solid;
+  text-transform: lowercase;
+  box-shadow: #333;
+}
+.footer-social--icons{
   display: flex;
-  flex-direction: column;
+  gap: 2rem;
+}
+.icons{
+  cursor: pointer;
+  position: relative;
+  font-size: 2rem;
+  padding: 6px;
+}
+li{
+padding: 6px;
+}
+hr{
+  margin-bottom: 2rem;
+  width: auto;
+  height: 0.1px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.div container-2{
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
