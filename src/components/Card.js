@@ -6,9 +6,10 @@ function Card( {name}) {
   return (
     <>
     <Link to={name} className='location-link'/>
-    <div className='op'><div className='in'><img alt ="" src={require(`../images/${name}.png`)}></img><span className='title'>{name}</span></div></div>
+    <div className='op'><div className='in'><span className='title'>{name}</span></div></div>
     </>
   )
 }
 
 export default Card
+/**<img alt ="" src={require(`../images/${name}.png`)}></img> */

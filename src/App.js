@@ -5,6 +5,7 @@ import Header from './components/Header.js';
 import SuffList from './components/SuffList.js';
 import './App.css';
 import Login from './components/Login'
+import Footer from './components/Footer.js';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
     <BrowserRouter>
     <Routes>
           <Route path="/" element={<Header/>} />
-          <Route path="/" element={<Login/>}/>
+         
           <Route path='all' element={<SuffList name='' myURL=''/>}/>
           <Route path='Banglore' element={<SuffList name='Banglore' myURL=''/>}/>
           <Route path='Delhi' element={<SuffList name='Delhi' myURL=''/>}/>
@@ -21,7 +22,7 @@ const App = () => {
           <Route path='all' element={<SuffList name='' myURL=''/>}/>
           <Route path='all' element={<SuffList name='' myURL=''/>}/>
           <Route path='all' element={<SuffList name='' myURL=''/>}/>
-            
+         
     </Routes>
     </BrowserRouter>
     </>
