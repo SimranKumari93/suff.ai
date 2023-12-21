@@ -6,22 +6,28 @@ import SuffList from './components/SuffList.js';
 import './App.css';
 // import Login from './components/Login'
 // import Footer from './components/Footer.js';
+import Popup from './components/Popup.js';
+import ShowPopup from './components/ShowPopup.js';
+import ComingSoon from './components/ComingSoon.js';
 
 const App = () => {
   return (
     <>
     <BrowserRouter>
     <Routes>
+       
           <Route path="/" element={<Header/>} />
-         
+          <Route path='popup'element={<Popup/>}/>
+          <Route path='showpopup'element={<ShowPopup/>}/>
+
           <Route path='all' element={<SuffList name='' myURL=''/>}/>
-          <Route path='Banglore' element={<SuffList name='Banglore' myURL=''/>}/>
-          <Route path='Delhi' element={<SuffList name='Delhi' myURL=''/>}/>
-          <Route path='Agra' element={<SuffList name='Agra' myURL=''/>}/>
-          <Route path='Kolkata' element={<SuffList name='Kolkata' myURL=''/>}/>
+          <Route path='banglore' element={<SuffList name='Banglore' myURL=''/>}/>
+          <Route path='delhi' element={<SuffList name='Delhi' myURL=''/>}/>
+          <Route path='agra' element={<SuffList name='Agra' myURL=''/>}/>
+          <Route path='kolkata' element={<SuffList name='Kolkata' myURL=''/>}/>
           <Route path='all' element={<SuffList name='' myURL=''/>}/>
           <Route path='all' element={<SuffList name='' myURL=''/>}/>
-          <Route path='all' element={<SuffList name='' myURL=''/>}/>
+          <Route path='agra' element={<ComingSoon/>}/>
          
     </Routes>
     </BrowserRouter>

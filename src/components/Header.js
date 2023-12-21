@@ -1,10 +1,8 @@
 import React from 'react'
 import Card from './Card.js';
-// import suffaiimg from '../../src/images/suffaiimg.png'
 import india from '../../src/images/india.png' 
-// import Background-2 from '../../src/images/Background-2.jpg'
 import suffhomeb from '../../src/images/suffhomeb.png'
-// import { FaLinkedin, FaYoutube, FaInstagram, FaTwitter, FaFacebook  } from 'react-icons/fa'; 
+import { FaLinkedin, FaYoutube, FaInstagram, FaTwitter, FaFacebook  } from 'react-icons/fa'; 
 import { Link } from 'react-router-dom';
 // import GridLayout from "react-grid-layout";
 
@@ -86,7 +84,7 @@ const Header = () => {
             <div className='footer-social'>
             <h3>Follow Us</h3> 
             <div className='social--icons'> </div>
-            {/* <div>
+            <div>
                 <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="/>
                 <FaInstagram className='icons'/>
                 <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" />
@@ -97,15 +95,15 @@ const Header = () => {
                 <FaTwitter className='icons'/>
                 <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" />
                 <FaFacebook className='icons'/>
-            </div> */}
+            </div>
                 </div>
                 </div>
      <div className='footer-bottom--section'>   {/**bottom section */}
         <div className='container-2'>    
-          <p> @{new Date().getFullYear()} suff.ai. All Rights Reserved</p>
+          <center><p> @{new Date().getFullYear()} suff.ai. All Rights Reserved</p>
             <p>Privacy Policy</p>
                 <p>Terms & Conditions</p>
-           
+                </center>
             </div>
             </div> 
             </div>
