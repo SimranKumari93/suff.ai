@@ -3,7 +3,7 @@
     padding:0;
     background-color: rgb(255, 255, 255);
 }
-.head{
+/* .head{
     width:100%;
     height:80px;
     background-color: #fae9ea;
@@ -11,8 +11,8 @@
     align-items: center;
     display: flex;
     justify-content: center;  
-}
-.head img {
+} */
+/* .head img {
     width:120px;
     -webkit-user-drag: none;  
    user-select: none;
@@ -20,7 +20,7 @@
    -webkit-user-drag: none;
    -webkit-user-select: none;
    -ms-user-select: none;
-}
+} */
 .shops-1{
     font-weight: 350;
     font-size: 35px;
@@ -102,32 +102,32 @@
     height: 100vh; 
     margin: auto;
 }
-.op img{
+/* .op img{
     width: 45px;   
-}
-
+} */
 
 /* for phone*/
 @media only screen and (max-width: 700px) {
-   *{
-    padding: 0px;
-    margin: 0px;
+    *{
+     padding: 0px;
+     margin: 0px;
+    }
+     .Sec{
+         display: block;
+         width: 100%;
+     }
+     .subSec{
+         width: 100%;
+         height: none;
+     }
+     .wrap{
+         height:100%;
+         background-color: none;
+     }
+     .up button{
+         width: 100%;
+         font-size: 14px;
+     }
+   
    }
-    .Sec{
-        display: block;
-        width: 100%;
-    }
-    .subSec{
-        width: 100%;
-        height: none;
-    }
-    .wrap{
-        height:100%;
-        background-color: none;
-    }
-    .up button{
-        width: 100%;
-        font-size: 14px;
-    }
-  
-  }
+ 
