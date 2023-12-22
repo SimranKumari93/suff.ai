@@ -9,8 +9,9 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
       const Location1 = ['Banglore', 'Delhi', 'Agra', 'Kolkata'];
-      const Location2 = ['Banglore','Delhi' , 'Chennai' , 'Goa'];
-      const Location3 = ['Banglore', 'Delhi' , 'Mumbai' , 'Bhopal'];
+      const Location2 = ['Kerala','Bhubaneshwar' , 'Chennai' , 'Goa'];
+      const Location3 = ['Andhra Pradesh', 'Mumbai' , 'Jaipur' , 'Bhopal'];
+
   return (
     <>
     {/* <div className='head'><img src={suffaiimg} alt=""/> */}

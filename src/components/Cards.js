@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-import '../styles/Header.css'
-function Card( {name}) {
+ import '../styles/SuffList.css'
+function Cards( {name}) {
   return (
     <>
     <Link to={name} className='location-link'>
@@ -13,5 +13,5 @@ function Card( {name}) {
   )
 }
 
-export default Card
+export default Cards
 /**<img alt ="" src={require(`../images/${name}.png`)}></img> */

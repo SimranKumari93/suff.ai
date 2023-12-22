@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import ShowPopup from './ShowPopup';
-
+import '../styles/Popup.css'
 
 function Popup() {
     const [ showPopup, setShowPopup ] = useState(false)
