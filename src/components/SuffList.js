@@ -2,12 +2,9 @@ import React from 'react'
 import Cards from './Cards.js'
 
 
-const SuffList= () => {
+const SuffList= () => {  //sufflist means locations of banglore 
   const List1 =['BTM', 'Bannerghatta', 'Kasavanhalli', 'HSR']
-  List1.sort()
   const List2 =['Sarjarpur Road', 'Bellandur', 'Hosur Road HSR', 'Green Geln Layout']
-  List2.sort()
-
   return (
     <>
    <div className="wrap">

@@ -8,6 +8,14 @@ import './App.css';
 // import Popup from './components/Popup.js';
 import ShowPopup from './components/ShowPopup.js';
 import ComingSoon from './components/ComingSoon.js';
+import Bellandur from './components/Bellandur.js';
+import Bannerghatta from './components/Bannerghatta.js';
+import Btm from './components/Btm.js';
+import Greenglen from './components/Greenglen.js';
+import Hosurroad from './components/Hosurroad.js';
+import Kasavanhalli from './components/Kasavanhalli.js';
+import Sarajpur from './components/Sarajpur.js';
+import Hsr from './components/Hsr.js';
 
 const App = () => {
   return (
@@ -24,7 +32,6 @@ const App = () => {
           <Route path='/comingsoon' element={<SuffList name='Kerala' myURL=''/>}/>
           <Route path='/comingsoon' element={<ComingSoon name='Andhra Pradesh' />} /> 
           <Route path='/comingsoon' element={<ComingSoon name='Delhi' myURL=''/>}/>
-
           <Route path='/comingsoon' element={<ComingSoon  name='Bhubaneshwar'/>} />
           <Route path='/comingsoon' element={<ComingSoon name='Mumbai' />} />
           <Route path='/comingsoon' element={<ComingSoon name='Agra' />} />
@@ -32,16 +39,17 @@ const App = () => {
           <Route path='/comingsoon' element={<ComingSoon name='jaipur' />} />
           <Route path='/comingsoon' element={<ComingSoon name='Kolkata' myURL=''/>}/>
           <Route path='/comingsoon' element={<ComingSoon name='Goa' />} />
-          
           <Route path='/comingsoon' element={<ComingSoon name ='Bhopal' />} />
-          {/* <Route path='/comingsoon' element={<ComingSoon />} />
-          <Route path='/comingsoon' element={<ComingSoon />} />
-          <Route path='/comingsoon' element={<ComingSoon />} />
+          {/**sub locations  */}
+          <Route path='bannerghatta' element={<Bannerghatta name='Bannerghatta' />}/>
+          <Route path='bellandur' element={<Bellandur name='Bellandur' />}/>
+          <Route path='btm' element={<Btm name='BTM'/>} />
+          <Route path='greenglen' element={<Greenglen name='Green Geln Layout'/>} />
+          <Route path='hosurroad' element={<Hosurroad name='Hosur Road HSR'/>} />
+          <Route path='hsr' element={<Hsr name='HSR'/>} />
+          <Route path='kasavanhalli' element={<Kasavanhalli name='Kasavanhalli'/>} />
+          <Route path='sarajpur' element={<Sarajpur name='Sarajpur Road'/>} />
 
-          
-          <Route path='all' element={<SuffList name='' myURL=''/>}/>
-          <Route path='all' element={<SuffList name='' myURL=''/>}/>
-          <Route path='agra' element={<ComingSoon/>}/> */}
          <Route path='/*' element={<ComingSoon />} /> 
     </Routes>
     </BrowserRouter>
