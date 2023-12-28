@@ -1,6 +1,7 @@
 import React from 'react'
 import Cards from './Cards.js'
 import '../styles/SuffList.css'
+// import { Link } from 'react-router-dom'
 
 function Sarajpur() {
         const List1 = ['WashInn', 'Fabrocare', 'Dr Fabric', 'Vijay Laundry']
@@ -26,6 +27,7 @@ function Sarajpur() {
           ))}
           </div>
         </div>
+       
        </div>
         </>
       )

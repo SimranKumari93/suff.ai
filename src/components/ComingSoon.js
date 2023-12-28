@@ -3,19 +3,20 @@ import React from "react";
 // import comingsoon from '../../src/images/comingsoon.png'
 import suffai from '../../src/images/suffai.png'
 import { useNavigate } from "react-router-dom";
-import '../styles/ComingSoon.css'
+import '../styles/ComingSoon.css';
+// import { Link } from 'react-router-dom'
 
 const ComingSoon = () => {
-  const navigate = useNavigate(true);
+  const navigate = useNavigate();
   // const [ canGoBack, setCanGoBack ] = useState(false);
   // const [timeLeft, setTimeLeft] = React.useState(new Date("2023-12-31T00:00:00"));
   // useEffect(() =>{
   //   setCanGoBack(navigate.canGoBack())
   // }, [navigate])
-  const handleClick = () => {
-    // Use the navigate function to navigate to a different route
-    navigate('/Header');
-  };
+  // const handleClick = () => {
+  //   // Use the navigate function to navigate to a different route
+  //   navigate('/Header');
+  // };
   return (
    <div className="launch">
       <center> <img src={suffai} alt="" />
@@ -29,8 +30,8 @@ const ComingSoon = () => {
       
       {/* <form>
         <input type="email" placeholder="Email Address" />
-        <button  type="submit">Notify Me</button><br/><br/> */}
-        <button  onClick={handleClick}> Home</button>
+        <button  type="submit">Notify Me</button><br/><br/>  onClick={() => {navigate('/Header')}} */}
+        <button  onClick={() => {navigate(-1)}}> Home</button>
       {/* </form> */}
       </center>
     </div>

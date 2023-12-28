@@ -1,8 +1,14 @@
 import React from 'react'
 import Cards from './Cards.js'
+import '../styles/SuffList.css'
+import { useNavigate } from "react-router-dom";
 
+// import '../SuffList.css';
+// import { Link } from 'react-router-dom';
+// import Bannerghatta from './Bannerghatta.js';
 
 const SuffList= () => {  //sufflist means locations of banglore 
+  const navigate = useNavigate();
   const List1 =['BTM', 'Bannerghatta', 'Kasavanhalli', 'HSR']
   const List2 =['Sarjarpur Road', 'Bellandur', 'Hosur Road HSR', 'Green Geln Layout']
   return (
@@ -25,7 +31,9 @@ const SuffList= () => {  //sufflist means locations of banglore
       ))}
       </div> */}
     </div>
+    <center><button  onClick={() => {navigate(-1)}}> Home</button></center>
    </div>
+   {/* <Link to='/Bannerghatta' /> */}
     </>
   )
   }

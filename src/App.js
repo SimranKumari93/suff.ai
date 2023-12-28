@@ -21,7 +21,7 @@ const App = () => {
   return (
     <>
     <BrowserRouter>
-
+   
     {/* <ShowPopup /> */}
     <Routes>
        
@@ -36,19 +36,19 @@ const App = () => {
           <Route path='/comingsoon' element={<ComingSoon name='Mumbai' />} />
           <Route path='/comingsoon' element={<ComingSoon name='Agra' />} />
           <Route path='/comingsoon' element={<ComingSoon name='Chennai' myURL=''/>}/>
-          <Route path='/comingsoon' element={<ComingSoon name='jaipur' />} />
+          <Route path='/comingsoon' element={<ComingSoon name='Jaipur' />} />
           <Route path='/comingsoon' element={<ComingSoon name='Kolkata' myURL=''/>}/>
           <Route path='/comingsoon' element={<ComingSoon name='Goa' />} />
           <Route path='/comingsoon' element={<ComingSoon name ='Bhopal' />} />
           {/**sub locations  */}
-          <Route path='bannerghatta' element={<Bannerghatta name='Bannerghatta' />}/>
-          <Route path='bellandur' element={<Bellandur name='Bellandur' />}/>
-          <Route path='btm' element={<Btm name='BTM'/>} />
-          <Route path='greenglen' element={<Greenglen name='Green Geln Layout'/>} />
-          <Route path='hosurroad' element={<Hosurroad name='Hosur Road HSR'/>} />
-          <Route path='hsr' element={<Hsr name='HSR'/>} />
-          <Route path='kasavanhalli' element={<Kasavanhalli name='Kasavanhalli'/>} />
-          <Route path='sarajpur' element={<Sarajpur name='Sarajpur Road'/>} />
+          <Route path='bannerghatta' element={<Bannerghatta name='Bannerghatta' myURL='' />}/>
+          <Route path='bellandur' element={<Bellandur name='Bellandur' myURL='' />}/>
+          <Route path='btm' element={<Btm name='BTM'/>} myURL='' />
+          <Route path='greenglen' element={<Greenglen name='Green Geln Layout' myURL='' />} />
+          <Route path='hosurroad' element={<Hosurroad name='Hosur Road HSR' myURL='' />} />
+          <Route path='hsr' element={<Hsr name='HSR'/>} myURL='' />
+          <Route path='kasavanhalli' element={<Kasavanhalli  />} />
+          <Route path='sarajpur' element={<Sarajpur name='Sarajpur Road' myURL=''  />} />
 
          <Route path='/*' element={<ComingSoon />} /> 
     </Routes>
