@@ -6,7 +6,8 @@ import { useNavigate } from "react-router-dom";
 
 function Kasavanhalli() {
   const navigate = useNavigate();
-    const List1 = ['Le Wash', 'Way To Wash']
+    const List1 = ['Le Wash']
+    const List2 = ['Way To Wash']
     return (
         <>
        <div className="wrap">
@@ -16,12 +17,12 @@ function Kasavanhalli() {
             <Cards name= {list} key = {index}/>
           ))}
           </div>
-          {/* <div className="subSec">
+          <div className="subSec">
           {List2.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}
           </div>
-          <div className="subSec">
+          {/* <div className="subSec">
           {List3.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}

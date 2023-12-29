@@ -4,7 +4,7 @@ import india from '../../src/images/india.png'
 import suffhomeb from '../../src/images/suffhomeb.png'
 import { FaLinkedin, FaYoutube, FaInstagram, FaTwitter, FaFacebook  } from 'react-icons/fa'; 
 import { Link } from 'react-router-dom';
-// import GridLayout from "react-grid-layout";
+
 
 
 const Header = () => {

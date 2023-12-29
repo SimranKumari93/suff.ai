@@ -3,9 +3,6 @@ import Cards from './Cards.js'
 import '../styles/SuffList.css'
 import { useNavigate } from "react-router-dom";
 
-// import '../SuffList.css';
-// import { Link } from 'react-router-dom';
-// import Bannerghatta from './Bannerghatta.js';
 
 const SuffList= () => {  //sufflist means locations of banglore 
   const navigate = useNavigate();
@@ -38,7 +35,6 @@ const SuffList= () => {  //sufflist means locations of banglore
     &nbsp;<button  onClick={() => {navigate(-1)}}>Back</button></center>
    </div>
    </div>
-   {/* <Link to='/Bannerghatta' /> */}
     </>
   )
   }

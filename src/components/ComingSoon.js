@@ -18,7 +18,7 @@ const ComingSoon = () => {
   //   navigate('/Header');
   // };
   return (
-   <div className="launch">
+   <div className="launch" style={{ backgroundColor: '#fae8ea'}}>
       <center> <img src={suffai} alt="" />
 
     <h1 style={{color: 'rgb(51, 60, 119)'}}>Launching Soon!</h1> <br/>
@@ -31,7 +31,7 @@ const ComingSoon = () => {
       {/* <form>
         <input type="email" placeholder="Email Address" />
         <button  type="submit">Notify Me</button><br/><br/>  onClick={() => {navigate('/Header')}} */}
-        <button  onClick={() => {navigate(-1)}}> Home</button>
+        <button style={{ backgroundColor: '#333c77', textDecorationColor: 'white'}} onClick={() => {navigate(-1)}}>Home</button>
       {/* </form> */}
       </center>
     </div>

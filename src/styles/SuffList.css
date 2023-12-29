@@ -16,8 +16,7 @@
 }
 .subSec {
     width:40%;
-    height:fit-content;
-   /* border: 2px solid red; */
+    height: auto;
     margin:10px auto;
 }
 .op {
