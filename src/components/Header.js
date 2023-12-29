@@ -51,11 +51,15 @@ const Header = () => {
       </div>
       <div className="footer-grid head-office">
         <h3>Head Office</h3>
-        <p>123 Main Street, City, Country</p>
+        <p>1st Floor, Redsquare, PU3</p>
+          <p>Commercial Scheme no 54, </p> 
+         <p> Opposite C21 Mall, Indore, MP- 452001</p>
       </div>
       <div className="footer-grid career">
         <h3>Career</h3>
         <p>Join our team! View open positions...</p>
+        <h4>Call Us</h4>
+        <h4>+91 7022952746</h4>
       </div>
       <div className="footer-grid social-media">
         <h3>Social Media</h3>

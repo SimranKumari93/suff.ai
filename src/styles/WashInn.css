@@ -1,0 +1,29 @@
+/* Default styles for all screen sizes */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust the minmax values as needed */
+    gap: 10px; /* Adjust the gap between images */
+    justify-content: center; /* Center the grid horizontally */
+    margin: 0 auto; /* Center the grid container */
+  }
+  
+  .grid-container img {
+    width: 100%; /* Make images fill their grid cells */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Media query for 700px screen */
+  @media (max-width: 700px) {
+    .grid-container {
+      max-width: 700px; /* Set the maximum width of the grid */
+    }
+  }
+  
+  /* Media query for laptop screen */
+  @media (min-width: 1024px) {
+    .grid-container {
+      grid-template-columns: repeat(4, 1fr); /* Adjust the number of columns for laptop screen */
+      max-width: 1024px; /* Set the maximum width of the grid for laptop screen */
+    }
+  }
+  

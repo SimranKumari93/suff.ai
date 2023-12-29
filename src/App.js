@@ -3,9 +3,6 @@ import { BrowserRouter , Route, Routes } from 'react-router-dom';
 import Header from './components/Header.js';
 import SuffList from './components/SuffList.js';
 import './App.css';
-// import Login from './components/Login'
-// import Footer from './components/Footer.js';
-// import Popup from './components/Popup.js';
 import ShowPopup from './components/ShowPopup.js';
 import ComingSoon from './components/ComingSoon.js';
 import Bellandur from './components/Bellandur.js';
@@ -16,7 +13,28 @@ import Hosurroad from './components/Hosurroad.js';
 import Kasavanhalli from './components/Kasavanhalli.js';
 import Sarajpur from './components/Sarajpur.js';
 import Hsr from './components/Hsr.js';
-// import SarajList from './components/SarajList.js';
+import WashInn from './components/WashInn.js';
+import WashnWear from './components/WashnWear.js';
+import WashnDry from './components/WashnDry.js';
+import WayToWash from './components/WayToWash.js';
+import LeWash from './components/LeWash.js';
+import KingDry from './components/KingDry.js';
+import FabricShower from './components/FabricShower.js';
+import InstaLaunromat from './components/InstaLaunromat.js';
+import LaundryNest from './components/LaundryNest.js';
+import LaundryBasket from './components/LaundryBasket.js';
+import FlashWash from './components/FlashWash.js';
+import LaundryEx from './components/LaundryEx.js';
+import SmsLaundry from './components/SmsLaundry.js';
+import Sancys from './components/Sancys.js';
+import WashlyLaundry from './components/WashlyLaundry.js';
+import FabcoPre from './components/FabcoPre.js';
+import StarShine from './components/StarShine.js';
+import Washhub from './components/Washhub.js';
+import VrDry from './components/VrDry.js';
+import MrClean from './components/MrClean.js';
+import SmartDhobhi from './components/SmartDhobhi.js';
+
 
 const App = () => {
   return (
@@ -50,6 +68,34 @@ const App = () => {
           <Route path='Banglore/hsr' element={<Hsr name='HSR'/>} myURL='' />
           <Route path='Banglore/kasavanhalli' element={<Kasavanhalli  />} />
           <Route path='Banglore/sarajpur' element={<Sarajpur name='Sarajpur Road' myURL=''  />} />
+          {/***sub locations for figures */}
+          {/**bellandur */}
+          <Route path='Banglore/Bellandur/washinn' element={<WashInn/>}/>   
+          <Route path='Banglore/Bellandur/washnwear' element={<WashnWear/>}/>  
+          {/*bannerghatta*/} 
+          <Route path='Banglore/Bannerghatta/washnwear' element={<WashnWear/>}/>  
+          {/**kasavanhalli */} 
+          <Route path='Banglore/Kasavanhalli/waytowash' element={<WayToWash/>}/>   
+          <Route path='Banglore/Kasavanhalli/lewash' element={<LeWash/>}/>   
+          {/*btm*/}
+          <Route path='Banglore/btm/washndry' element={<WashnDry/>}/> {/**60 min wash n dry */}  
+          <Route path='Banglore/btm/kingdrycleaner' element={<KingDry/>}/>   
+          <Route path='Banglore/btm/fabricshower' element={<FabricShower/>}/>   
+          <Route path='Banglore/btm/instalauren' element={<InstaLaunromat/>}/>   
+          <Route path='Banglore/btm/laundrynest' element={<LaundryNest/>}/>   
+          <Route path='Banglore/btm/laundrybasket' element={<LaundryBasket/>}/>   
+          <Route path='Banglore/btm/flashwash' element={<FlashWash/>}/>   
+          <Route path='Banglore/btm/laundryexpress' element={<LaundryEx/>}/>   
+          <Route path='Banglore/btm/smslaundry' element={<SmsLaundry/>}/>   
+          <Route path='Banglore/btm/sancys' element={<Sancys/>}/>   
+          <Route path='Banglore/btm/washly' element={<WashlyLaundry/>}/>   
+          {/**hsr */}
+          <Route path='Banglore/HSR/fabcopremium' element={<FabcoPre/>}/>   
+          <Route path='Banglore/HSR/starshine' element={<StarShine/>}/>   
+          <Route path='Banglore/HSR/washhub' element={<Washhub/>}/>   
+          <Route path='Banglore/HSR/vrdrycleaner' element={<VrDry/>}/>   
+          <Route path='Banglore/HSR/mrdrycleaner' element={<MrClean/>}/>   
+          <Route path='Banglore/HSR/smartdhobhi' element={<SmartDhobhi/>}/>   
 
          <Route path='/*' element={<ComingSoon />} /> 
     </Routes>
