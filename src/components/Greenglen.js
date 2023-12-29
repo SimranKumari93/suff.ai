@@ -1,8 +1,11 @@
 import React from 'react'
 import Cards from './Cards.js'
 import '../styles/SuffList.css'
+import { useNavigate } from "react-router-dom";
 
 function Greenglen() {
+  const navigate = useNavigate();
+
     const List1 = ['Royal KP Dry Clean', 'NJ Laundroma']
     return (
         <>
@@ -23,6 +26,10 @@ function Greenglen() {
             <Cards name= {list} key = {index}/>
           ))}
           </div> */}
+        </div>
+        <div>
+        <center><button  onClick={() => {navigate('/Header')}}> Home</button>&nbsp;
+        &nbsp;<button  onClick={() => {navigate(-1)}}>Back</button></center>
         </div>
        </div>
         </>

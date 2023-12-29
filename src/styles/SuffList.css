@@ -42,6 +42,25 @@
 .title{
     padding: 5px;
 }
+.button {
+    display: inline-block;
+    padding: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    padding-right: 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+        justify-content: space-between;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
 /* for phone*/
 @media only screen and (max-width: 700px) {
     *{

@@ -9,8 +9,10 @@ import { useNavigate } from "react-router-dom";
 
 const SuffList= () => {  //sufflist means locations of banglore 
   const navigate = useNavigate();
-  const List1 =['BTM', 'Bannerghatta', 'Kasavanhalli', 'HSR']
+  
+  const List1 =['BTM','Bannerghatta', 'Kasavanhalli', 'HSR']
   const List2 =['Sarjarpur Road', 'Bellandur', 'Hosur Road HSR', 'Green Geln Layout']
+ // const List3 = 
   return (
     <>
    <div className="wrap">
@@ -31,7 +33,10 @@ const SuffList= () => {  //sufflist means locations of banglore
       ))}
       </div> */}
     </div>
-    <center><button  onClick={() => {navigate(-1)}}> Home</button></center>
+    <div>
+    <center><button  onClick={() => {navigate('/Header')}}> Home</button>&nbsp;
+    &nbsp;<button  onClick={() => {navigate(-1)}}>Back</button></center>
+   </div>
    </div>
    {/* <Link to='/Bannerghatta' /> */}
     </>

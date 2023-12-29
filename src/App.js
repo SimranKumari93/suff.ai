@@ -16,6 +16,7 @@ import Hosurroad from './components/Hosurroad.js';
 import Kasavanhalli from './components/Kasavanhalli.js';
 import Sarajpur from './components/Sarajpur.js';
 import Hsr from './components/Hsr.js';
+// import SarajList from './components/SarajList.js';
 
 const App = () => {
   return (
@@ -41,14 +42,14 @@ const App = () => {
           <Route path='/comingsoon' element={<ComingSoon name='Goa' />} />
           <Route path='/comingsoon' element={<ComingSoon name ='Bhopal' />} />
           {/**sub locations  */}
-          <Route path='bannerghatta' element={<Bannerghatta name='Bannerghatta' myURL='' />}/>
-          <Route path='bellandur' element={<Bellandur name='Bellandur' myURL='' />}/>
-          <Route path='btm' element={<Btm name='BTM'/>} myURL='' />
-          <Route path='greenglen' element={<Greenglen name='Green Geln Layout' myURL='' />} />
-          <Route path='hosurroad' element={<Hosurroad name='Hosur Road HSR' myURL='' />} />
-          <Route path='hsr' element={<Hsr name='HSR'/>} myURL='' />
-          <Route path='kasavanhalli' element={<Kasavanhalli  />} />
-          <Route path='sarajpur' element={<Sarajpur name='Sarajpur Road' myURL=''  />} />
+          <Route path='Banglore/bannerghatta' element={<Bannerghatta name='Bannerghatta' myURL='' />}/>
+          <Route path='Banglore/bellandur' element={<Bellandur name='Bellandur' myURL='' />}/>
+          <Route path='Banglore/btm' element={<Btm name='BTM'/>} myURL='' />
+          <Route path='Banglore/greenglen' element={<Greenglen name='Green Geln Layout' myURL='' />} />
+          <Route path='Banglore/hosurroad' element={<Hosurroad name='Hosur Road HSR' myURL='' />} />
+          <Route path='Banglore/hsr' element={<Hsr name='HSR'/>} myURL='' />
+          <Route path='Banglore/kasavanhalli' element={<Kasavanhalli  />} />
+          <Route path='Banglore/sarajpur' element={<Sarajpur name='Sarajpur Road' myURL=''  />} />
 
          <Route path='/*' element={<ComingSoon />} /> 
     </Routes>
