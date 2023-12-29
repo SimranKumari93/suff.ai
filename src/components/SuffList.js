@@ -7,28 +7,28 @@ import { useNavigate } from "react-router-dom";
 const SuffList= () => {  //sufflist means locations of banglore 
   const navigate = useNavigate();
   
-  const List1 =['BTM','Bannerghatta', 'Kasavanhalli', 'HSR']
+  const List3 =['BTM','Bannerghatta', 'Kasavanhalli', 'HSR']
   const List2 =['Sarjarpur Road', 'Bellandur', 'Hosur Road HSR', 'Green Geln Layout']
  // const List3 = 
   return (
     <>
    <div className="wrap">
     <div className="Sec">
-      <div className="Subsec">
+      {/* <div className="Subsec">
       {List1.map((list, index) => (
         <Cards name= {list} key = {index}/>
       ))}
-      </div>
+      </div> */}
       <div className="subSec">
       {List2.map((list, index) => (
         <Cards name= {list} key = {index}/>
       ))}
       </div>
-      {/* <div className="subSec">
+      <div className="subSec">
       {List3.map((list, index) => (
         <Cards name= {list} key = {index}/>
       ))}
-      </div> */}
+      </div>
     </div>
     <div>
     <center><button  onClick={() => {navigate('/Header')}}> Home</button>&nbsp;

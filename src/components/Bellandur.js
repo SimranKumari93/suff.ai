@@ -7,17 +7,18 @@ import { useNavigate } from "react-router-dom";
 function Bellandur() {
   const navigate = useNavigate();
 
-    const List1 = ['WashInn', 'Wash n Wear', ]
+    const List2 = ['WashInn', ]
+    const List3 = ['Wash n Wear', ]
     return (
         <>
        <div className="wrap">
         <div className="Sec">
-          <div className="Subsec">
+          {/* <div className="Subsec">
           {List1.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}
-          </div>
-          {/* <div className="subSec">
+          </div> */}
+          <div className="subSec">
           {List2.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}
@@ -26,7 +27,7 @@ function Bellandur() {
           {List3.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}
-          </div> */}
+          </div>
         </div>
         <div>
         <center><button  onClick={() => {navigate('/Header')}}> Home</button>&nbsp;
