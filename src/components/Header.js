@@ -2,8 +2,9 @@ import React from 'react'
 import Card from './Card.js';
 import india from '../../src/images/india.png' 
 import suffhomeb from '../../src/images/suffhomeb.png'
+import '../styles/Footer.css'
 import { FaLinkedin, FaYoutube, FaInstagram, FaTwitter, FaFacebook  } from 'react-icons/fa'; 
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 
 
@@ -43,71 +44,34 @@ const Header = () => {
        </div>
        </div>
      {/**footer section */}
-     <footer>
-        <div className='container'>
-            <div className='footer-about'>       {/**1st column */}
-            <h2><Link to="">SUFF.AI</Link></h2>
-            <p>ABOUT SUFFAI</p>
-            <ul>
-            <li>Who We Are</li>
-            <li>Work With Us</li>
-            <li>Investor Relation</li>
-            </ul>
-                </div>
-      {/**2nd column */} 
-      <div className='footer-contact'>
-        <p><b>Head Office</b></p>
-        <p>1st Floor, Redsquare, PU3
-          <p>Commercial Scheme no 54, </p> 
-         <p> Opposite C21 Mall, Indore, MP- 452001</p>
-         </p>
-        <h3>Call Us</h3>
-        <h3>+91 7022952746</h3>
-        </div> 
-      {/**3rd column */} 
-      <div className='footer-details'>
-      <p><b>Quick Links</b></p>
-      <ul>
-        <li>Contact  </li>
-        <li>FAQs </li>
-        <li>Locations  </li>
-        <li>Privacy Policy</li>
-        <li>Career</li>
-      </ul>
+     <footer className="site-footer">
+      <div className="footer-grid about-us">
+        <h3>About Us</h3>
+        <p>Some information about your company...</p>
       </div>
-     {/**4th column */}
-     <div className='footer-partner'>  
-            <p><b>Subscribe Now</b></p>
-            <form action="">
-                <input type='email' required autoComplete='off' placeholder='Your-email'/><br/>
-                <input type='submit' value="Subscribe"/>
-            </form>
-            <div className='footer-social'>
-            <h3>Follow Us</h3> 
-            <div className='social--icons'> </div>
-            <div>
-                <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA=="/>
-                <FaInstagram className='icons'/>
-                <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" />
-                <FaYoutube className='icons'/>
-                <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" />
-                <FaLinkedin className='icons'/>
-                <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" />
-                <FaTwitter className='icons'/>
-                <Link to="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" />
-                <FaFacebook className='icons'/>
+      <div className="footer-grid head-office">
+        <h3>Head Office</h3>
+        <p>123 Main Street, City, Country</p>
+      </div>
+      <div className="footer-grid career">
+        <h3>Career</h3>
+        <p>Join our team! View open positions...</p>
+      </div>
+      <div className="footer-grid social-media">
+        <h3>Social Media</h3>
+        <div>
+                <a href="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+                <FaInstagram className='icons'/></a>
+                <a href="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+                <FaYoutube className='icons'/></a>
+                <a href="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer" >
+                <FaLinkedin className='icons'/></a>
+                <a href="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+                <FaTwitter className='icons'/></a>
+                <a href="https://www.instagram.com/suff.ai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+                <FaFacebook className='icons'/></a>
             </div>
-                </div>
-                </div>
-     <div className='footer-bottom--section'>   {/**bottom section */}
-        <div className='container-2'>    
-          <center><p> @{new Date().getFullYear()} suff.ai. All Rights Reserved</p>
-            <p>Privacy Policy</p>
-                <p>Terms & Conditions</p>
-                </center>
-            </div>
-            </div> 
-            </div>
+      </div>
     </footer>
     </div>
   
