@@ -6,17 +6,18 @@ import { useNavigate } from "react-router-dom";
 function Greenglen() {
   const navigate = useNavigate();
 
-    const List1 = ['Royal KP Dry Clean', 'NJ Laundroma']
+    const List2 = ['Royal KP Dry Clean',]
+    const List3 = [ 'NJ Laundroma',]
     return (
         <>
        <div className="wrap">
         <div className="Sec">
-          <div className="Subsec">
+          {/* <div className="Subsec">
           {List1.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}
-          </div>
-          {/* <div className="subSec">
+          </div> */}
+          <div className="subSec">
           {List2.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}
@@ -25,7 +26,7 @@ function Greenglen() {
           {List3.map((list, index) => (
             <Cards name= {list} key = {index}/>
           ))}
-          </div> */}
+          </div>
         </div>
         <div>
         <center><button  onClick={() => {navigate('/Header')}}> Home</button>&nbsp;

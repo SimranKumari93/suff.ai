@@ -34,6 +34,8 @@ import Washhub from './components/Washhub.js';
 import VrDry from './components/VrDry.js';
 import MrClean from './components/MrClean.js';
 import SmartDhobhi from './components/SmartDhobhi.js';
+import Dorica from './components/Dorica.js';
+import AirStream from './components/AirStream.js';
 
 
 const App = () => {
@@ -63,39 +65,43 @@ const App = () => {
           <Route path='Banglore/bannerghatta' element={<Bannerghatta name='Bannerghatta' myURL='' />}/>
           <Route path='Banglore/bellandur' element={<Bellandur name='Bellandur' myURL='' />}/>
           <Route path='Banglore/btm' element={<Btm name='BTM'/>} myURL='' />
-          <Route path='Banglore/greenglen' element={<Greenglen name='Green Geln Layout' myURL='' />} />
-          <Route path='Banglore/hosurroad' element={<Hosurroad name='Hosur Road HSR' myURL='' />} />
+          <Route path='Banglore/Green Geln Layout' element={<Greenglen  myURL='' />} />
+          <Route path='Banglore/Hosur Road HSR' element={<Hosurroad name='Hosur Road HSR' myURL='' />} />
           <Route path='Banglore/hsr' element={<Hsr name='HSR'/>} myURL='' />
           <Route path='Banglore/kasavanhalli' element={<Kasavanhalli  />} />
-          <Route path='Banglore/sarajpur' element={<Sarajpur name='Sarajpur Road' myURL=''  />} />
+          <Route path='Banglore/Sarjarpur Road' element={<Sarajpur name='Sarajpur Road' myURL=''  />} />
           {/***sub locations for figures */}
           {/**bellandur */}
           <Route path='Banglore/Bellandur/washinn' element={<WashInn/>}/>   
-          <Route path='Banglore/Bellandur/washnwear' element={<WashnWear/>}/>  
+          <Route path='Banglore/Bellandur/Wash n Wear' element={<WashnWear/>}/>  
           {/*bannerghatta*/} 
-          <Route path='Banglore/Bannerghatta/washnwear' element={<WashnWear/>}/>  
+          <Route path='Banglore/Bannerghatta/Wash n Wear' element={<WashnWear/>}/>  
           {/**kasavanhalli */} 
-          <Route path='Banglore/Kasavanhalli/waytowash' element={<WayToWash/>}/>   
-          <Route path='Banglore/Kasavanhalli/lewash' element={<LeWash/>}/>   
+          <Route path='Banglore/Kasavanhalli/Way To Wash' element={<WayToWash/>}/>   
+          <Route path='Banglore/Kasavanhalli/Le Wash' element={<LeWash/>}/>   
           {/*btm*/}
-          <Route path='Banglore/btm/washndry' element={<WashnDry/>}/> {/**60 min wash n dry */}  
-          <Route path='Banglore/btm/kingdrycleaner' element={<KingDry/>}/>   
-          <Route path='Banglore/btm/fabricshower' element={<FabricShower/>}/>   
-          <Route path='Banglore/btm/instalauren' element={<InstaLaunromat/>}/>   
-          <Route path='Banglore/btm/laundrynest' element={<LaundryNest/>}/>   
-          <Route path='Banglore/btm/laundrybasket' element={<LaundryBasket/>}/>   
-          <Route path='Banglore/btm/flashwash' element={<FlashWash/>}/>   
-          <Route path='Banglore/btm/laundryexpress' element={<LaundryEx/>}/>   
-          <Route path='Banglore/btm/smslaundry' element={<SmsLaundry/>}/>   
-          <Route path='Banglore/btm/sancys' element={<Sancys/>}/>   
-          <Route path='Banglore/btm/washly' element={<WashlyLaundry/>}/>   
+          <Route path='Banglore/btm/60 minutes Wash n Dry' element={<WashnDry/>}/> {/**60 min wash n dry */}  
+          <Route path='Banglore/btm/King Dry Cleaners (mom & pop)' element={<KingDry/>}/>   
+          <Route path='Banglore/btm/Fabric Shower' element={<FabricShower/>}/>   
+          <Route path='Banglore/btm/Insta Launromat' element={<InstaLaunromat/>}/>   
+          <Route path='Banglore/btm/Laundry Nest, Anugraha Layout' element={<LaundryNest/>}/>   
+          <Route path='Banglore/btm/The Laundry Basket' element={<LaundryBasket/>}/>   
+          <Route path='Banglore/btm/FlashWash Laundry' element={<FlashWash/>}/>   
+          <Route path='Banglore/btm/Laundry Express' element={<LaundryEx/>}/>   
+          <Route path='Banglore/btm/SMS Laundry and Dry Cleaners' element={<SmsLaundry/>}/>   
+          <Route path="Banglore/btm/Sancy's Laundrette" element={<Sancys/>}/>   
+          <Route path='Banglore/btm/Washly Laundry' element={<WashlyLaundry/>}/>   
           {/**hsr */}
-          <Route path='Banglore/HSR/fabcopremium' element={<FabcoPre/>}/>   
-          <Route path='Banglore/HSR/starshine' element={<StarShine/>}/>   
-          <Route path='Banglore/HSR/washhub' element={<Washhub/>}/>   
-          <Route path='Banglore/HSR/vrdrycleaner' element={<VrDry/>}/>   
-          <Route path='Banglore/HSR/mrdrycleaner' element={<MrClean/>}/>   
-          <Route path='Banglore/HSR/smartdhobhi' element={<SmartDhobhi/>}/>   
+          <Route path='Banglore/HSR/Fabco Premium Laundry' element={<FabcoPre/>}/>   
+          <Route path='Banglore/HSR/StarShine' element={<StarShine/>}/>   
+          <Route path='Banglore/HSR/Washhub' element={<Washhub/>}/>   
+          <Route path='Banglore/HSR/VR Dry Cleaner' element={<VrDry/>}/>   
+          <Route path='Banglore/HSR/Mr. Clean Dry Cleaners' element={<MrClean/>}/>   
+          <Route path='Banglore/HSR/Smart Dhobi' element={<SmartDhobhi/>}/>   
+          <Route path='Banglore/HSR/Dorika Fabric Spa' element={<Dorica/>}/>  {/**Dorika fabric spa */} 
+          <Route path='Banglore/HSR/Airstream Laundry' element={<AirStream/>}/>  {/**Dorika fabric spa */} 
+          <Route path='Banglore/HSR/WashInn' element={<WashInn/>}/>   {/**washinn II */}
+
 
          <Route path='/*' element={<ComingSoon />} /> 
     </Routes>
