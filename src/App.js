@@ -36,13 +36,13 @@ import MrClean from './components/MrClean.js';
 import SmartDhobhi from './components/SmartDhobhi.js';
 import Dorica from './components/Dorica.js';
 import AirStream from './components/AirStream.js';
-
+import Head from './components/Head.js';
 
 const App = () => {
   return (
     <>
     <BrowserRouter>
-   
+    <Head />
     {/* <ShowPopup /> */}
     <Routes>
        

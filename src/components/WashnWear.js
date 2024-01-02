@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/WashInn.css'
 
 function WashnWear() {
     const figures = [
