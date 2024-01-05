@@ -31,7 +31,7 @@ const SuffList= () => {  //sufflist means locations of banglore
       </div>
     </div>
     <div>
-    <center><button  onClick={() => {navigate('/Header')}}> Home</button>&nbsp;
+    <center>
     &nbsp;<button  onClick={() => {navigate(-1)}}>Back</button></center>
    </div>
    </div>

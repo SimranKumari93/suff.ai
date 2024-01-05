@@ -37,12 +37,14 @@ import SmartDhobhi from './components/SmartDhobhi.js';
 import Dorica from './components/Dorica.js';
 import AirStream from './components/AirStream.js';
 import Head from './components/Head.js';
+import WhatsAppQRCode from './components/WhatsAppQRCode.js';
 
 const App = () => {
   return (
     <>
     <BrowserRouter>
     <Head />
+    <WhatsAppQRCode />
     {/* <ShowPopup /> */}
     <Routes>
        
