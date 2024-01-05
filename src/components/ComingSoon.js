@@ -1,7 +1,7 @@
 import React from "react";
 // import Countdown from "react-countdown";
 // import comingsoon from '../../src/images/comingsoon.png'
-import suffai from '../../src/images/suffai.png'
+import suffai2 from '../../src/images/suffai2.png'
 import { useNavigate } from "react-router-dom";
 import '../styles/ComingSoon.css';
 // import { Link } from 'react-router-dom'
@@ -19,7 +19,7 @@ const ComingSoon = () => {
   // };
   return (
    <div className="launch" style={{ backgroundColor: '#fae8ea'}}>
-      <center> <img src={suffai} alt="" />
+      <center> <img src={suffai2} alt="" /><br/><br/>
 
     <h1 style={{color: 'rgb(51, 60, 119)'}}>Launching Soon!</h1> <br/>
                 {/* <Countdown date={timeLeft} /> */}
